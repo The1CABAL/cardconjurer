@@ -8,7 +8,7 @@ if (debugging) {
 
 //To save the server from being overloaded? Maybe?
 function fixUri(input) {
-	var prefix = 'http://uncarder.isaacbly.com';//'https://raw.githubusercontent.com/ImKyle4815/cardconjurer/remake';
+	var prefix = 'https://uncarder.isaacbly.com';//'https://raw.githubusercontent.com/ImKyle4815/cardconjurer/remake';
 	if (input.includes(prefix) || input.includes('http') || input.includes('data:image') || window.location.href.includes('localhost')) {
 		return input;
 	} else {
