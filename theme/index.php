@@ -1,6 +1,6 @@
 <?php
-$title = 'Card Conjurer - Theme Editor';
-$desc = 'Customize your experience by adjusting the look of Card Conjurer. Upload a background, adjust the lightness, or maybe discover what rainbow-mode is!';
+$title = 'Uncarder - Theme Editor';
+$desc = 'Customize your experience by adjusting the look of Uncarder. Upload a background, adjust the lightness, or maybe discover what rainbow-mode is!';
 include('../globalHTML/header-1.php');
 ?>
 	<h2 class='readable-background header-extension title center'>Theme Editor</h2>

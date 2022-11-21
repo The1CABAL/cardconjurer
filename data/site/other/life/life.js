@@ -1,5 +1,5 @@
 //============================================//
-//       Card Conjurer, by Kyle Burton        //
+//       C*rd C*nj*r*r, by K*l* B*rt*n        //
 //============================================//
 console.log("1.1")
 //define variables

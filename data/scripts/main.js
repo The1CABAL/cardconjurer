@@ -840,7 +840,7 @@ function initialize() {
 	window.updateTextDelay = setTimeout(drawCardTextReal, 250)
 	setTimeout(bottomInfoUpdated, 500)
 	textCodeReference()
-	notify("You are currently using the old version of Card Conjurer. Please go to <a href='https://cardconjurer.com/creator/'>the new version</a> if you are here by mistake.", '#ffffaae0')
+	notify("You are currently using the old version of Uncarder. Please go to <a href='https://uncarder.isaacbly.com/creator/'>the new version</a> if you are here by mistake.", '#ffffaae0')
 }
 
 function bottomInfoUpdated() {

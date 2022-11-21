@@ -1,5 +1,5 @@
 <?php
-$title = 'Card Conjurer - Gallery';
+$title = 'Uncarder - Gallery';
 $desc = 'See examples of available frames';
 include('../globalHTML/header-1.php');
 ?>

@@ -1,5 +1,5 @@
 <?php
-$title = 'Card Conjurer - Legal';
+$title = 'Uncarder - Legal';
 $desc = 'One does not simply make custom cards. Inform yourself on any rules and restrictions by reading these terms and conditions.';
 include('../globalHTML/header-1.php');
 ?>
@@ -8,8 +8,8 @@ include('../globalHTML/header-1.php');
 		<div class='readable-background layer margin-bottom-large'>
 			<h2 class='center margin-bottom'>Introduction</h2>
 			<h5 class='padding'>
-				Welcome, and thank you for using Card Conjurer!
-				<br><br>In these Terms and Conditions ("Terms") CardConjurer.com will refer to itself as "Card Conjurer", "we", "us", or "our".
+				Welcome, and thank you for using Uncarder!
+				<br><br>In these Terms and Conditions ("Terms") CardConjurer.com will refer to itself as "Uncarder", "we", "us", or "our".
 				<br><br>By using our website ("Services"), you confirm that you have read, understand, and agree to be bound by these Terms.
 			</h5>
 		</div>
@@ -21,7 +21,7 @@ include('../globalHTML/header-1.php');
 				<br><br>We are neither affiliated with, sponsored by, nor endorsed by Scryfall LLC.
 				<br><br>All user-uploaded material is property of the original artist, and it is the user's responsibility to ensure that these materials are properly credited.
 				<br><br>Some card frame images, or elements used therein, were sourced from <a target="_blank" href="https://www.reddit.com/user/Chilli_Axe/">Chilli_Axe</a>, Kentu, thevodkaboy, Timmy XD69, <a target='blank' href='https://twitter.com/sheepycutie'>Sheepwave</a>, <a target='blank' href='https://twitter.com/feuer_ameise'>FeuerAmeise</a>, <a target='blank' href='https://www.reddit.com/user/Smyris'>Smyris</a>, <a target='blank' href='https://twitter.com/vote_checkbox'>Checkbox</a> and TheGnomeRobotic.
-				<br><br>All other content Copyright © 2020 Card Conjurer.
+				<br><br>All other content Copyright © 2020 C*rd C*nj*r*r.
 			</h5>
 		</div>
 		<div class='readable-background layer margin-bottom-large'>

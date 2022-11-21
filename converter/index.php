@@ -1,6 +1,6 @@
 <?php
 $title = 'MPC to Regular Converter';
-$desc = 'Generate random strands of phyrexian text for use with Card Conjurer, the custom Magic: The Gathering card creator';
+$desc = 'Generate random strands of phyrexian text for use with C*rd C*nj*r*r, the custom Magic: The Gathering card creator';
 include('../globalHTML/header-1.php');
 ?>
     <h2 class='readable-background header-extension title center margin-bottom-large'>MPC to Regular Converter</h2>

@@ -1,23 +1,23 @@
 <?php
-$title = 'Card Conjurer - About';
-$desc = 'Card Conjurer has gone through a handful of major remakes. Click here for the full story!';
+$title = 'Uncarder - About';
+$desc = 'Uncarder has gone through a handful of major remakes. Click here for the full story!';
 include('../globalHTML/header-1.php');
 ?>
 	<h2 class='readable-background header-extension title center'>About Me</h2>
 	<div class='layer center'></div>
 	<div class='layer center'>
 		<h1>Hello!</h1>
-		<h4>It's me, Kyle &#x1F440;</h4>
+		<h4>It's me, K*le &#x1F440;</h4>
 	</div>
 	<div class='layer center'></div>
 	<div class='layer readable-background margin-bottom-large'>
 		<h4 class='padding'>
-			I'm the creator of Card Conjurer. I started playing Magic with an M14 deckbuilder's toolkit. I played 60-card casual games with several close friends, and when Khans of Tarkir was released we attended our first prerelease. As the years passed I got more and more into Magic and ultimately discovered Commander, which is the format I currently play.
+			I'm the creator of C*rd C*nj*r*r. I started playing Magic with an M14 deckbuilder's toolkit. I played 60-card casual games with several close friends, and when Khans of Tarkir was released we attended our first prerelease. As the years passed I got more and more into Magic and ultimately discovered Commander, which is the format I currently play.
 		</h4>
 	</div>
 	<div class='layer readable-background margin-bottom-large'>
 		<h4 class='padding'>
-			During middle school I did some light programming with Processing and Lego's NXT/EV3, and halfway through high school I taught myself Javascript, HTML, and CSS (the languages that compose websites). Then, in the summer of 2018, I combined my love for Magic and curiosity for programming by creating Card Conjurer.
+			During middle school I did some light programming with Processing and Lego's NXT/EV3, and halfway through high school I taught myself Javascript, HTML, and CSS (the languages that compose websites). Then, in the summer of 2018, I combined my love for Magic and curiosity for programming by creating C*rd C*nj*r*r.
 		</h4>
 	</div>
 	<div class='layer readable-background margin-bottom-large'>
@@ -32,7 +32,7 @@ include('../globalHTML/header-1.php');
 	</div>
 	<div class='layer readable-background margin-bottom-large'>
 		<h4 class='padding'>
-			Whether you'd like to see what I'm up to in the Magic world or take a look at some of the cards I've made with Card Conjurer, please consider taking a moment to check out my Twitter <a style='color: #00aced;' href="https://twitter.com/ImKyle4815" target='_blank'>@ImKyle4815</a>!
+			Whether you'd like to see what I'm up to in the Magic world or take a look at some of the cards I've made with C*rd C*nj*r*r, please consider taking a moment to check out my Twitter <a style='color: #00aced;' href="https://twitter.com/ImKyle4815" target='_blank'>@ImKyle4815</a>!
 		</h4>
 	</div>
 <?php include('../globalHTML/footer.php'); ?>

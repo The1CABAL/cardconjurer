@@ -22,7 +22,7 @@
 <body>
 	<div class='background'></div>
 	<header class='readable-background'>
-		<h1 class='title center'>CARD CONJURER</h1>
+		<h1 class='title center'>UNCARDER</h1>
 	</header>
 	<div>
 		<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" class='hamburger' onclick='toggleMenu()'>

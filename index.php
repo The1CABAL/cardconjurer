@@ -1,12 +1,13 @@
 <?php
-$title = 'Card Conjurer - Welcome';
+$title = 'Uncarder - Welcome';
 $desc = 'Create custom Magic: The Gathering cards on any web-enabled device. Make creatures, tokens, planeswalkers, and more in showcase frames and high resolutions';
 include('globalHTML/header-1.php');
 ?>
 	<div class='layer center'></div>
 	<div class='layer center'>
-		<h1>Welcome to Card Conjurer</h1>
-		<h3>The custom Magic: The Gathering card creator</h3>
+		<h1>Welcome to Uncarder</h1>
+		<h2>The custom Magic: The Gathering card creator</h2>
+		<h3>(A line for line copy of "C*rd C*nj*r*r" with the name changed to hide a bit better)</h3>
 	</div>
 	<div class='layer center'></div>
 	<div class='layer readable-background center'>
@@ -14,7 +15,7 @@ include('globalHTML/header-1.php');
 			<div class='animated-scene'><img src='/img/samples/sample1.png' class='animated-card-1'></div>
 			<div class='vertical-center'>
 				<h1 class='padding margin-bottom'>Choose from a Variety of Card Frames</h1>
-				<h3 class='padding margin-bottom'>Card Conjurer offers Expeditions, Inventions, Showcase Frames, and so much more. <a href='/creator/'>Take a look</a>!</h3>
+				<h3 class='padding margin-bottom'>Uncarder offers Expeditions, Inventions, Showcase Frames, and so much more. <a href='/creator/'>Take a look</a>!</h3>
 			</div>
 		</div>
 	</div>
@@ -22,7 +23,7 @@ include('globalHTML/header-1.php');
 		<div class='sample-grid right'>
 			<div class='vertical-center'>
 				<h1 class='padding margin-bottom'>Customize to Your Heart's Content</h1>
-				<h3 class='padding margin-bottom'>With Card Conjurer's level of customization, you'll have endless options when designing your dream cards. <a href='/creator/'>Try it out</a>!</h3>
+				<h3 class='padding margin-bottom'>With Uncarder's level of customization, you'll have endless options when designing your dream cards. <a href='/creator/'>Try it out</a>!</h3>
 			</div>
 			<div class='animated-scene'><img src='/img/samples/sample2.png' class='animated-card-1 animation-delay-2'></div>
 		</div>

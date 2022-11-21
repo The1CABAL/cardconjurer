@@ -4,7 +4,7 @@
 //     document.getElementById('footer').innerHTML = xhttp.responseText
 //   }
 // }
-// xhttp.open('GET', 'https://cardconjurer.com/footer.txt')
+// xhttp.open('GET', 'https://uncarder.isaacbly.com/footer.txt')
 // xhttp.send()
 document.getElementById('footer').innerHTML = `
 <div class='footer'>
@@ -45,7 +45,7 @@ document.getElementById('footer').innerHTML = `
         <div>Contact</div>
         <hr>
         <div>
-            <label class="truncate"><a href="mailto:CardConjurerMTG@gmail.com?subject=Card Conjurer" target="_blank">CardConjurerMTG@gmail.com</a></label>
+            <label class="truncate"><a href="mailto:CardConjurerMTG@gmail.com?subject=C*rd C*nj*r*r" target="_blank">C*rdC*nj*r*rMTG@gmail.com</a></label>
         </div>
     </div>
     <script defer src="/data/scripts/animations.js"></script>
