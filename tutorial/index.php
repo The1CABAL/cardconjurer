@@ -1,6 +1,6 @@
 <?php
-$title = 'Card Conjurer - Tutorials';
-$desc = 'Written guides on how to create a variety of custom Magic: The Gathering cards on Card Conjurer';
+$title = 'Uncarder - Tutorials';
+$desc = 'Written guides on how to create a variety of custom Magic: The Gathering cards on Uncarder';
 include('../globalHTML/header-1.php');
 ?>
 	<div class='layer center'>
