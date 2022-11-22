@@ -29,19 +29,19 @@ async function cropCard(image, filename) {
     // Draw card image
     context.drawImage(image, -66, -60, 1632, 2220);
     // Determine version
-    var version;
-    if (context.getImageData(1342, 2026, 1, 1).data.toString() == '255,255,255,255') {
-        context.drawImage(wizards, 895, 1973, 509, 25);
-    } else if (context.getImageData(1342, 2020, 1, 1).data.toString() == '255,255,255,255') {
-        context.drawImage(wizards, 895, 1967, 509, 25);
-    } else if (context.getImageData(1342, 2062, 1, 1).data.toString() == '255,255,255,255') {
-        context.drawImage(wizards, 895, 2009, 509, 25);
-    } else if (context.getImageData(1342, 2056, 1, 1).data.toString() == '255,255,255,255') {
-        context.drawImage(wizards, 895, 2003, 509, 25);
-    } else {
-        context.drawImage(wizards, 895, 2009, 509, 25);
-        notify('Your card type was unrecognized, and as such may have the copyright info incorrectly placed. Please double check your card.', 10);
-    }
+    // var version;
+    // if (context.getImageData(1342, 2026, 1, 1).data.toString() == '255,255,255,255') {
+    //     context.drawImage(wizards, 895, 1973, 509, 25);
+    // } else if (context.getImageData(1342, 2020, 1, 1).data.toString() == '255,255,255,255') {
+    //     context.drawImage(wizards, 895, 1967, 509, 25);
+    // } else if (context.getImageData(1342, 2062, 1, 1).data.toString() == '255,255,255,255') {
+    //     context.drawImage(wizards, 895, 2009, 509, 25);
+    // } else if (context.getImageData(1342, 2056, 1, 1).data.toString() == '255,255,255,255') {
+    //     context.drawImage(wizards, 895, 2003, 509, 25);
+    // } else {
+    //     context.drawImage(wizards, 895, 2009, 509, 25);
+    //     notify('Your card type was unrecognized, and as such may have the copyright info incorrectly placed. Please double check your card.', 10);
+    // }
     // Mask off the corners
     context.globalCompositeOperation = 'destination-atop';
     context.drawImage(cardMask, 0, 0, 1500, 2100);
