@@ -416,7 +416,7 @@ function loadFramePack(frameOptions = availableFrames) {
 	})
 	document.querySelector('#mask-picker').innerHTML = '';
 	document.querySelector('#frame-picker').children[0].click();
-	if (localStorage.getItem('autoLoadFrameVersion') == 'false') {
+	if (localStorage.getItem('autoLoadFrameVersion') == 'true') {
 		document.querySelector('#loadFrameVersion').click();
 	}
 }
@@ -2307,7 +2307,7 @@ function fetchScryfallData(cardName, callback = console.log, searchUniqueArt = '
 if (!localStorage.getItem('autoLoadFrameVersion')) {
 	localStorage.setItem('autoLoadFrameVersion', document.querySelector('#autoLoadFrameVersion').checked);
 }
-document.querySelector('#autoLoadFrameVersion').checked = 'false' == localStorage.getItem('autoLoadFrameVersion');
+document.querySelector('#autoLoadFrameVersion').checked = 'true' == localStorage.getItem('autoLoadFrameVersion');
 
 // collector info (user defaults)
 var defaultCollector = JSON.parse(localStorage.getItem('defaultCollector') || '{}');
