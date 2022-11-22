@@ -3,7 +3,7 @@ cardMask.crossOrigin = 'anonymous';
 cardMask.src = 'card.png';
 var wizards = new Image();
 wizards.crossOrigin = 'anonymous';
-wizards.src = 'wizards.png';
+// wizards.src = 'wizards.png';
 
 function prepareImage(source, filename) {
     var cardImage = new Image();
