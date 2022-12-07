@@ -37,7 +37,7 @@ setSymbol.onerror = function() {
 	if (this.src.includes('gatherer.wizards.com')) {
 		notify('<a target="_blank" href="http' + this.src.split('http')[2] + '">Loading the set symbol from Gatherer failed. Please check this link to see if it exists. If it does, it may be necessary to manually download and upload the image.</a>', 5);
 	}
-	if (!this.src.includes('/img/blank.png')) {this.src = fixUri('/img/blank.png');}
+	if (!this.src.includes('/img/setSymbols/custom/STC.png')) {this.src = fixUri('/img/setSymbols/custom/STC.png');}
 }
 setSymbol.onload = setSymbolEdited;
 //watermark
