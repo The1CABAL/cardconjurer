@@ -20,13 +20,14 @@ function setImageUrl(image, source) {
 	image.src = fixUri(source);
 }
 //card object
-var card = {width:1500, height:2100, marginX:0, marginY:0, frames:[], artSource:fixUri('/img/blank.png'), artX:0, artY:0, artZoom:1, artRotate:0, setSymbolSource:fixUri('/img/setSymbols/custom/STC.png'), setSymbolX:1257, setSymbolY:1180, setSymbolZoom:25, watermarkSource:fixUri('/img/blank.png'), watermarkX:0, watermarkY:0, watermarkZoom:1, watermarkLeft:'none', watermarkRight:'none', watermarkOpacity:0.4, version:'', manaSymbols:[]};
+var card = {width:1500, height:2100, marginX:0, marginY:0, frames:[], artSource:fixUri('/img/blank.png'), artX:0, artY:0, artZoom:1, artRotate:0, setSymbolSource:fixUri('/img/blank.png'), setSymbolX:0, setSymbolY:0, setSymbolZoom:1, watermarkSource:fixUri('/img/blank.png'), watermarkX:0, watermarkY:0, watermarkZoom:1, watermarkLeft:'none', watermarkRight:'none', watermarkOpacity:0.4, version:'', manaSymbols:[]};
 //core images/masks
 const black = new Image(); black.crossOrigin = 'anonymous'; black.src = fixUri('/img/black.png');
-const blank = new Image(); blank.crossOrigin = 'anonymous'; blank.src = fixUri('/img/setSymbols/custom/STC.png');
+const blank = new Image(); blank.crossOrigin = 'anonymous'; blank.src = fixUri('/img/blank.png');
 const right = new Image(); right.crossOrigin = 'anonymous'; right.src = fixUri('/img/frames/maskRightHalf.png');
 const middle = new Image(); middle.crossOrigin = 'anonymous'; middle.src = fixUri('/img/frames/maskMiddleThird.png');
 const corner = new Image(); corner.crossOrigin = 'anonymous'; corner.src = fixUri('/img/frames/cornerCutout.png');
+const defaultsetsymbol = new Image(); defaultsetsymbol.crossOrigin = 'anonymous'; defaultsetsymbol.src = fixUri('/img/setSymbols/custom/STC.png')
 //art
 art = new Image(); art.crossOrigin = 'anonymous'; art.src = blank.src;
 art.onerror = function() {if (!this.src.includes('/img/blank.png')) {this.src = fixUri('/img/blank.png');}}
@@ -37,7 +38,7 @@ setSymbol.onerror = function() {
 	if (this.src.includes('gatherer.wizards.com')) {
 		notify('<a target="_blank" href="http' + this.src.split('http')[2] + '">Loading the set symbol from Gatherer failed. Please check this link to see if it exists. If it does, it may be necessary to manually download and upload the image.</a>', 5);
 	}
-	if (!this.src.includes('/img/setSymbols/custom/STC.png')) {this.src = fixUri('/img/setSymbols/custom/STC.png');}
+	if (!this.src.includes('/img/blank.png')) {this.src = fixUri('/img/blank.png');}
 }
 setSymbol.onload = setSymbolEdited;
 //watermark
