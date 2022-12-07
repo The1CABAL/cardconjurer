@@ -23,7 +23,7 @@ function setImageUrl(image, source) {
 var card = {width:1500, height:2100, marginX:0, marginY:0, frames:[], artSource:fixUri('/img/blank.png'), artX:0, artY:0, artZoom:1, artRotate:0, setSymbolSource:fixUri('/img/setSymbols/custom/STC.png'), setSymbolX:1257, setSymbolY:1180, setSymbolZoom:25, watermarkSource:fixUri('/img/blank.png'), watermarkX:0, watermarkY:0, watermarkZoom:1, watermarkLeft:'none', watermarkRight:'none', watermarkOpacity:0.4, version:'', manaSymbols:[]};
 //core images/masks
 const black = new Image(); black.crossOrigin = 'anonymous'; black.src = fixUri('/img/black.png');
-const blank = new Image(); blank.crossOrigin = 'anonymous'; blank.src = fixUri('/img/blank.png');
+const blank = new Image(); blank.crossOrigin = 'anonymous'; blank.src = fixUri('/img/setSymbols/custom/STC.png');
 const right = new Image(); right.crossOrigin = 'anonymous'; right.src = fixUri('/img/frames/maskRightHalf.png');
 const middle = new Image(); middle.crossOrigin = 'anonymous'; middle.src = fixUri('/img/frames/maskMiddleThird.png');
 const corner = new Image(); corner.crossOrigin = 'anonymous'; corner.src = fixUri('/img/frames/cornerCutout.png');
